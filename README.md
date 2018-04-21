@@ -1,9 +1,7 @@
-# UnityTutorial
+# Unity tutorial passos
 
-Unity tutorial passos
-
-1 Criar projeto
-2 Falar sobre as janelas
+1. Criar projeto
+2. Falar sobre as janelas
     2.1 Scene
     2.2 Game
     2.3 Asset store
@@ -11,8 +9,8 @@ Unity tutorial passos
     2.5 Inspector
     2.6 Project
     2.7 Console
-3 Importar assets
-4 Criar jogo
+3. Importar assets
+4. Criar jogo
     4.1 Background
     4.2 Layers
     4.3 Componentes
@@ -30,4 +28,4 @@ Unity tutorial passos
         4.5.1 Criar
         4.5.2 Gerenciar
         4.5.3 Parametros
-5 Diferença dos componentes 2D e 3D
+5. Diferença dos componentes 2D e 3D
