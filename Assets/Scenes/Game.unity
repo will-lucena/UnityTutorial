@@ -313,19 +313,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f3661be6ffaee59488f0707807f11080, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetTransform: {fileID: 2026860587}
-  borders:
-  - {fileID: 993384216}
-  - {fileID: 791247992}
-  - {fileID: 157686132}
-  - {fileID: 1428237224}
-  playerBorders:
-  - {fileID: 1410424546}
-  - {fileID: 1410424544}
-  - {fileID: 1410424545}
-  - {fileID: 1410424543}
-  xOffset: 2
-  yOffset: 2.5
+  alvoTransform: {fileID: 0}
+  bordas: []
+  bordasJogador: []
+  sobraX: 0
+  sobraY: 0
 --- !u!1 &110534374
 GameObject:
   m_ObjectHideFlags: 0
@@ -908,26 +900,6 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: d793ed07d2e35864099fde096d93cdb4, type: 2}
   m_IsPrefabParent: 0
---- !u!4 &1410424543 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4093072239315104, guid: d793ed07d2e35864099fde096d93cdb4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1410424542}
---- !u!4 &1410424544 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4427649902393334, guid: d793ed07d2e35864099fde096d93cdb4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1410424542}
---- !u!4 &1410424545 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4586513796217490, guid: d793ed07d2e35864099fde096d93cdb4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1410424542}
---- !u!4 &1410424546 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4586961712994004, guid: d793ed07d2e35864099fde096d93cdb4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1410424542}
 --- !u!1 &1428237223
 GameObject:
   m_ObjectHideFlags: 0
@@ -1029,8 +1001,3 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
---- !u!4 &2026860587 stripped
-Transform:
-  m_PrefabParentObject: {fileID: 4760046476743422, guid: d793ed07d2e35864099fde096d93cdb4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1410424542}
