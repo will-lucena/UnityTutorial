@@ -18,5 +18,11 @@ public class Player : MonoBehaviour
     {
         currentHp -= damage;
         healthBar.updateState(damage);
+
+        if (currentHp <= 0)
+        {
+            SceneLoader scene = new SceneLoader();
+            scene.loadScene(0);
+        }
     }
 }

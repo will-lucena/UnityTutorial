@@ -30,14 +30,17 @@
         * CompareTag
         * Time
         * Lerp
+        * Scene managment
     * Animações
         * Criar
         * Gerenciar
         * Parametros
+    * Transição entre cenas
 5. Diferença dos componentes 2D e 3D
 6. Canvas
     * Render mode
     * ScrollBar
+    * Button
 7. Unity tags
     * SerializeField
     * HideInInspector
