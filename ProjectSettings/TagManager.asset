@@ -3,7 +3,9 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Turret
+  - Bullet
   layers:
   - Default
   - TransparentFX
@@ -13,8 +15,8 @@ TagManager:
   - UI
   - 
   - 
-  - Background
-  - Game
+  - 
+  - 
   - 
   - 
   - 
@@ -46,4 +48,7 @@ TagManager:
     locked: 0
   - name: Game
     uniqueID: 2201667455
+    locked: 0
+  - name: Foreground
+    uniqueID: 830179231
     locked: 0

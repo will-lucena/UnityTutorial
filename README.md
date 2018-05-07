@@ -24,6 +24,11 @@
         * GetComponent
         * Input
         * Constraint - Freeze rotation Z
+        * Instantiate
+        * OnTrigger
+        * Destroy
+        * CompareTag
+        * Time
     * Animações
         * Criar
         * Gerenciar
