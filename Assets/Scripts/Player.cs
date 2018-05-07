@@ -1,26 +1,22 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Player : MonoBehaviour
 {
     public float maxHp;
 
     private float currentHp;
+    public Bar healthBar;
 
     // Use this for initialization
 	void Start ()
     {
-        currentHp = maxHp;	
-	}
+        currentHp = maxHp;
+        healthBar.setValor(currentHp);
+    }
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
-
     public void takeDamage(float damage)
     {
         currentHp -= damage;
+        healthBar.updateState(damage);
     }
 }

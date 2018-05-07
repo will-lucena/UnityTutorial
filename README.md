@@ -29,8 +29,15 @@
         * Destroy
         * CompareTag
         * Time
+        * Lerp
     * Animações
         * Criar
         * Gerenciar
         * Parametros
 5. Diferença dos componentes 2D e 3D
+6. Canvas
+    * Render mode
+    * ScrollBar
+7. Unity tags
+    * SerializeField
+    * HideInInspector
